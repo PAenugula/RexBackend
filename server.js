@@ -1,5 +1,10 @@
 'use strict'
 /* Credentials of the account placing the order */
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+const path = require('path');
+const RippleAPI = require('ripple-lib').RippleAPI;
 
 const INTERVAL = 1000;
 const api = new RippleAPI({server: 'wss://s.altnet.rippletest.net:51233'});
@@ -8,12 +13,7 @@ const ledgerOffset = 5;
 const myInstructions = {maxLedgerVersionOffset: ledgerOffset};
 
 
-const express = require('express');
-const app = express();
-const bodyParser = require('body-parser');
-const path = require('path');
 
-const RippleAPI = require('ripple-lib').RippleAPI;
 const myAddr = 'TVDY5PVRPdafrc9ipjW5kzpXZfifzScivqXhVLbut9ACSuv';
 const mySecret = 'ssU5afHWZ1eNfp35PmxvxsVFoKF9V';
 
