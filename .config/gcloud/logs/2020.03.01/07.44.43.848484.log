@@ -1,0 +1,41 @@
+2020-03-01 07:44:43,850 DEBUG    root            Loaded Command Group: [u'gcloud', u'projects']
+2020-03-01 07:44:43,852 DEBUG    root            Loaded Command Group: [u'gcloud', u'projects', u'describe']
+2020-03-01 07:44:43,855 DEBUG    root            Running [gcloud.projects.describe] with arguments: [PROJECT_ID: "lucid-burner-231321"]
+2020-03-01 07:44:44,061 INFO     root            Display format: "default"
+2020-03-01 07:44:44,065 INFO     ___FILE_ONLY___ createTime
+2020-03-01 07:44:44,065 INFO     ___FILE_ONLY___ :
+2020-03-01 07:44:44,065 INFO     ___FILE_ONLY___  '
+2020-03-01 07:44:44,065 INFO     ___FILE_ONLY___ 2019-02-10T21:14:36.837Z
+2020-03-01 07:44:44,065 INFO     ___FILE_ONLY___ '
+2020-03-01 07:44:44,066 INFO     ___FILE_ONLY___ 
+
+2020-03-01 07:44:44,066 INFO     ___FILE_ONLY___ lifecycleState
+2020-03-01 07:44:44,066 INFO     ___FILE_ONLY___ :
+2020-03-01 07:44:44,066 INFO     ___FILE_ONLY___  
+2020-03-01 07:44:44,066 INFO     ___FILE_ONLY___ ACTIVE
+2020-03-01 07:44:44,067 INFO     ___FILE_ONLY___ 
+
+2020-03-01 07:44:44,067 INFO     ___FILE_ONLY___ name
+2020-03-01 07:44:44,067 INFO     ___FILE_ONLY___ :
+2020-03-01 07:44:44,067 INFO     ___FILE_ONLY___  
+2020-03-01 07:44:44,067 INFO     ___FILE_ONLY___ My
+2020-03-01 07:44:44,067 INFO     ___FILE_ONLY___  
+2020-03-01 07:44:44,067 INFO     ___FILE_ONLY___ First
+2020-03-01 07:44:44,067 INFO     ___FILE_ONLY___  
+2020-03-01 07:44:44,068 INFO     ___FILE_ONLY___ Project
+2020-03-01 07:44:44,068 INFO     ___FILE_ONLY___ 
+
+2020-03-01 07:44:44,068 INFO     ___FILE_ONLY___ projectId
+2020-03-01 07:44:44,068 INFO     ___FILE_ONLY___ :
+2020-03-01 07:44:44,068 INFO     ___FILE_ONLY___  
+2020-03-01 07:44:44,068 INFO     ___FILE_ONLY___ lucid-burner-231321
+2020-03-01 07:44:44,068 INFO     ___FILE_ONLY___ 
+
+2020-03-01 07:44:44,068 INFO     ___FILE_ONLY___ projectNumber
+2020-03-01 07:44:44,068 INFO     ___FILE_ONLY___ :
+2020-03-01 07:44:44,069 INFO     ___FILE_ONLY___  '
+2020-03-01 07:44:44,069 INFO     ___FILE_ONLY___ 218225514060
+2020-03-01 07:44:44,069 INFO     ___FILE_ONLY___ '
+2020-03-01 07:44:44,069 INFO     ___FILE_ONLY___ 
+
+2020-03-01 07:44:44,069 DEBUG    root            SDK update checks are disabled.

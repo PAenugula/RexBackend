@@ -1,0 +1,19 @@
+2020-03-01 02:48:12,119 DEBUG    root            Loaded Command Group: [u'gcloud', u'auth']
+2020-03-01 02:48:12,121 DEBUG    root            Loaded Command Group: [u'gcloud', u'auth', u'application_default']
+2020-03-01 02:48:12,123 DEBUG    root            Loaded Command Group: [u'gcloud', u'auth', u'application-default', u'login']
+2020-03-01 02:48:12,126 DEBUG    root            Running [gcloud.auth.application-default.login] with arguments: []
+2020-03-01 02:48:15,554 INFO     ___FILE_ONLY___ Go to the following link in your browser:
+
+    https://accounts.google.com/o/oauth2/auth?code_challenge=3Y1piuXz_eQWnYa5l0fxuNES58mGK7Ej0YUs0pt2D4s&prompt=select_account&code_challenge_method=S256&access_type=offline&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&response_type=code&client_id=764086051850-6qr4p6gpi6hn506pt8ejuq83di341hur.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth
+
+
+
+2020-03-01 02:48:40,214 INFO     oauth2client.client Successfully retrieved access token
+2020-03-01 02:48:40,215 INFO     ___FILE_ONLY___ 
+Credentials saved to file: [/home/justink875/.config/gcloud/application_default_credentials.json]
+
+2020-03-01 02:48:40,216 INFO     ___FILE_ONLY___ 
+These credentials will be used by any library that requests Application Default Credentials (ADC).
+
+2020-03-01 02:48:40,216 INFO     root            Display format: "none"
+2020-03-01 02:48:40,218 DEBUG    root            SDK update checks are disabled.

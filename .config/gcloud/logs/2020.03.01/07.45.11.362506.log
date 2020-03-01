@@ -1,0 +1,48 @@
+2020-03-01 07:45:11,363 DEBUG    root            Loaded Command Group: [u'gcloud', u'app']
+2020-03-01 07:45:11,378 DEBUG    root            Loaded Command Group: [u'gcloud', u'app', u'create']
+2020-03-01 07:45:11,381 DEBUG    root            Running [gcloud.app.create] with arguments: [--project: "lucid-burner-231321"]
+2020-03-01 07:45:11,782 INFO     ___FILE_ONLY___ You are creating an app for project [lucid-burner-231321].
+
+2020-03-01 07:45:11,782 WARNING  root            Creating an App Engine application for a project is irreversible and the region
+cannot be changed. More information about regions is at
+<https://cloud.google.com/appengine/docs/locations>.
+
+2020-03-01 07:45:22,150 DEBUG    root            Received operation: [apps/lucid-burner-231321/operations/0df84470-bb31-420d-8626-9d393199c251]
+2020-03-01 07:45:22,151 DEBUG    root            Operation [apps/lucid-burner-231321/operations/0df84470-bb31-420d-8626-9d393199c251] not complete. Waiting to retry.
+2020-03-01 07:45:22,152 INFO     ___FILE_ONLY___ Creating App Engine application in project [lucid-burner-231321] and region [us-west2]....
+2020-03-01 07:45:23,236 DEBUG    root            Operation [apps/lucid-burner-231321/operations/0df84470-bb31-420d-8626-9d393199c251] not complete. Waiting to retry.
+2020-03-01 07:45:28,469 DEBUG    root            Operation [apps/lucid-burner-231321/operations/0df84470-bb31-420d-8626-9d393199c251] not complete. Waiting to retry.
+2020-03-01 07:45:34,056 DEBUG    root            Operation [apps/lucid-burner-231321/operations/0df84470-bb31-420d-8626-9d393199c251] not complete. Waiting to retry.
+2020-03-01 07:45:39,353 DEBUG    root            Operation [apps/lucid-burner-231321/operations/0df84470-bb31-420d-8626-9d393199c251] complete. Result: {
+    "response": {
+        "defaultHostname": "lucid-burner-231321.appspot.com", 
+        "name": "apps/lucid-burner-231321", 
+        "codeBucket": "staging.lucid-burner-231321.appspot.com", 
+        "defaultBucket": "lucid-burner-231321.appspot.com", 
+        "servingStatus": "SERVING", 
+        "gcrDomain": "us.gcr.io", 
+        "locationId": "us-west2", 
+        "featureSettings": {
+            "useContainerOptimizedOs": true, 
+            "splitHealthChecks": true
+        }, 
+        "id": "lucid-burner-231321", 
+        "databaseType": "CLOUD_DATASTORE_COMPATIBILITY", 
+        "authDomain": "gmail.com", 
+        "@type": "type.googleapis.com/google.appengine.v1.Application"
+    }, 
+    "done": true, 
+    "name": "apps/lucid-burner-231321/operations/0df84470-bb31-420d-8626-9d393199c251", 
+    "metadata": {
+        "target": "apps/lucid-burner-231321", 
+        "method": "google.appengine.v1.Applications.CreateApplication", 
+        "user": "justink875@gmail.com", 
+        "insertTime": "2020-03-01T07:45:22.064Z", 
+        "endTime": "2020-03-01T07:45:34.561Z", 
+        "@type": "type.googleapis.com/google.appengine.v1.OperationMetadataV1"
+    }
+}
+2020-03-01 07:45:39,391 INFO     ___FILE_ONLY___ Success! The app is now created. Please use `gcloud app deploy` to deploy your first app.
+
+2020-03-01 07:45:39,392 INFO     root            Display format: "none"
+2020-03-01 07:45:39,392 DEBUG    root            SDK update checks are disabled.

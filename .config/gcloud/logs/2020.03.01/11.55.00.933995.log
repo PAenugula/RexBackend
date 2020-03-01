@@ -1,0 +1,10 @@
+2020-03-01 11:55:00,935 DEBUG    root            Loaded Command Group: [u'gcloud', u'app']
+2020-03-01 11:55:00,958 DEBUG    root            Loaded Command Group: [u'gcloud', u'app', u'browse']
+2020-03-01 11:55:00,961 DEBUG    root            Running [gcloud.app.browse] with arguments: []
+2020-03-01 11:55:00,977 INFO     oauth2client.client Refreshing access_token
+2020-03-01 11:55:01,651 INFO     ___FILE_ONLY___ Did not detect your browser. Go to this link to view your app:
+
+2020-03-01 11:55:01,652 INFO     root            Display format: "value(url)"
+2020-03-01 11:55:01,653 INFO     ___FILE_ONLY___ https://lucid-burner-231321.appspot.com
+
+2020-03-01 11:55:01,653 DEBUG    root            SDK update checks are disabled.

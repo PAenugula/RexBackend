@@ -1,0 +1,17 @@
+{
+  "name": "slohacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "@google-cloud/storage": "^4.3.1",
+    "express": "^4.17.1",
+    "git": "^0.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

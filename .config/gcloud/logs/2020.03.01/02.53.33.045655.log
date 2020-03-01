@@ -1,0 +1,40 @@
+2020-03-01 02:53:33,047 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2020-03-01 02:53:33,051 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'set']
+2020-03-01 02:53:33,053 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "project", VALUE: "PROJECT_ID"]
+2020-03-01 02:53:33,054 DEBUG    root            (gcloud.config.set) The project property must be set to a valid project ID, not the project name [PROJECT_ID]
+To set your project, run:
+
+  $ gcloud config set project PROJECT_ID
+
+or to unset it, run:
+
+  $ gcloud config unset project
+Traceback (most recent call last):
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 981, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+  File "/usr/lib/google-cloud-sdk/lib/surface/config/set.py", line 140, in Run
+    properties.PersistProperty(prop, args.value, scope=scope)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 2380, in PersistProperty
+    prop.Validate(value)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 2162, in Validate
+    self.__validator(value)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 1336, in ProjectValidator
+    'project name [{value}]'.format(value=project))
+InvalidProjectError: The project property must be set to a valid project ID, not the project name [PROJECT_ID]
+To set your project, run:
+
+  $ gcloud config set project PROJECT_ID
+
+or to unset it, run:
+
+  $ gcloud config unset project
+2020-03-01 02:53:33,055 ERROR    root            (gcloud.config.set) The project property must be set to a valid project ID, not the project name [PROJECT_ID]
+To set your project, run:
+
+  $ gcloud config set project PROJECT_ID
+
+or to unset it, run:
+
+  $ gcloud config unset project

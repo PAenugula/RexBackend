@@ -1,0 +1,20 @@
+2020-03-01 01:46:17,769 DEBUG    root            Loaded Command Group: [u'gcloud', u'app']
+2020-03-01 01:46:17,823 DEBUG    root            Loaded Command Group: [u'gcloud', u'app', u'deploy']
+2020-03-01 01:46:17,827 DEBUG    root            Running [gcloud.app.deploy] with arguments: []
+2020-03-01 01:46:18,013 DEBUG    root            Loading runtimes experiment config from [gs://runtime-builders/experiments.yaml]
+2020-03-01 01:46:18,047 INFO     root            Reading [<googlecloudsdk.api_lib.storage.storage_util.ObjectReference object at 0x7f2109650490>]
+2020-03-01 01:46:18,253 DEBUG    root            API endpoint: [https://appengine.googleapis.com/], API version: [v1]
+2020-03-01 01:46:18,627 DEBUG    root            (gcloud.app.deploy) Permissions error fetching application [apps/lucid-burner-231321]. Please make sure you are using the correct project ID and that you have permission to view applications on the project.
+Traceback (most recent call last):
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 981, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+  File "/usr/lib/google-cloud-sdk/lib/surface/app/deploy.py", line 110, in Run
+    default_strategy=flex_image_build_option_default))
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/app/deploy_util.py", line 596, in RunDeploy
+    app = _PossiblyCreateApp(api_client, project)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/app/deploy_util.py", line 763, in _PossiblyCreateApp
+    api_client._FormatApp())))  # pylint: disable=protected-access
+HttpException: Permissions error fetching application [apps/lucid-burner-231321]. Please make sure you are using the correct project ID and that you have permission to view applications on the project.
+2020-03-01 01:46:18,628 ERROR    root            (gcloud.app.deploy) Permissions error fetching application [apps/lucid-burner-231321]. Please make sure you are using the correct project ID and that you have permission to view applications on the project.

@@ -1,0 +1,833 @@
+2020-03-01 12:58:36,125 DEBUG    root            Loaded Command Group: [u'gcloud', u'app']
+2020-03-01 12:58:36,175 DEBUG    root            Loaded Command Group: [u'gcloud', u'app', u'deploy']
+2020-03-01 12:58:36,178 DEBUG    root            Running [gcloud.app.deploy] with arguments: []
+2020-03-01 12:58:36,197 INFO     oauth2client.client Refreshing access_token
+2020-03-01 12:58:36,342 DEBUG    root            Loading runtimes experiment config from [gs://runtime-builders/experiments.yaml]
+2020-03-01 12:58:36,364 INFO     root            Reading [<googlecloudsdk.api_lib.storage.storage_util.ObjectReference object at 0x7f6e1873c8d0>]
+2020-03-01 12:58:36,584 DEBUG    root            API endpoint: [https://appengine.googleapis.com/], API version: [v1]
+2020-03-01 12:58:37,112 INFO     ___FILE_ONLY___ Services to deploy:
+
+
+2020-03-01 12:58:37,112 INFO     ___FILE_ONLY___ descriptor:      [/home/justink875/app.yaml]
+source:          [/home/justink875]
+target project:  [lucid-burner-231321]
+target service:  [default]
+target version:  [20200301t125837]
+target url:      [https://lucid-burner-231321.appspot.com]
+
+
+
+2020-03-01 12:58:40,098 DEBUG    root            No bucket specified, retrieving default bucket.
+2020-03-01 12:58:40,099 DEBUG    root            Using bucket [gs://staging.lucid-burner-231321.appspot.com].
+2020-03-01 12:58:40,551 DEBUG    root            Service [appengineflex.googleapis.com] is already enabled for project [lucid-burner-231321]
+2020-03-01 12:58:40,708 INFO     ___FILE_ONLY___ Beginning deployment of service [default]...
+
+2020-03-01 12:58:40,709 INFO     root            Ignoring file [views/SloHacksProject/.gitignore]: File matches ignore regex.
+2020-03-01 12:58:40,710 INFO     root            Ignoring file [views/SloHacksProject/.git/HEAD]: File matches ignore regex.
+2020-03-01 12:58:40,710 INFO     root            Ignoring directory [views/SloHacksProject/.git/branches]: Directory matches ignore regex.
+2020-03-01 12:58:40,710 INFO     root            Ignoring file [views/SloHacksProject/.git/config]: File matches ignore regex.
+2020-03-01 12:58:40,711 INFO     root            Ignoring file [views/SloHacksProject/.git/description]: File matches ignore regex.
+2020-03-01 12:58:40,711 INFO     root            Ignoring directory [views/SloHacksProject/.git/hooks]: Directory matches ignore regex.
+2020-03-01 12:58:40,711 INFO     root            Ignoring file [views/SloHacksProject/.git/index]: File matches ignore regex.
+2020-03-01 12:58:40,711 INFO     root            Ignoring directory [views/SloHacksProject/.git/info]: Directory matches ignore regex.
+2020-03-01 12:58:40,711 INFO     root            Ignoring directory [views/SloHacksProject/.git/logs]: Directory matches ignore regex.
+2020-03-01 12:58:40,711 INFO     root            Ignoring directory [views/SloHacksProject/.git/objects]: Directory matches ignore regex.
+2020-03-01 12:58:40,711 INFO     root            Ignoring file [views/SloHacksProject/.git/packed-refs]: File matches ignore regex.
+2020-03-01 12:58:40,711 INFO     root            Ignoring directory [views/SloHacksProject/.git/refs]: Directory matches ignore regex.
+2020-03-01 12:58:40,712 INFO     root            Ignoring directory [node_modules/.bin]: Directory matches ignore regex.
+2020-03-01 12:58:40,712 INFO     root            Ignoring directory [node_modules/@google-cloud]: Directory matches ignore regex.
+2020-03-01 12:58:40,712 INFO     root            Ignoring directory [node_modules/@tootallnate]: Directory matches ignore regex.
+2020-03-01 12:58:40,712 INFO     root            Ignoring directory [node_modules/abort-controller]: Directory matches ignore regex.
+2020-03-01 12:58:40,712 INFO     root            Ignoring directory [node_modules/accepts]: Directory matches ignore regex.
+2020-03-01 12:58:40,712 INFO     root            Ignoring directory [node_modules/agent-base]: Directory matches ignore regex.
+2020-03-01 12:58:40,712 INFO     root            Ignoring directory [node_modules/array-flatten]: Directory matches ignore regex.
+2020-03-01 12:58:40,712 INFO     root            Ignoring directory [node_modules/arrify]: Directory matches ignore regex.
+2020-03-01 12:58:40,712 INFO     root            Ignoring directory [node_modules/base64-js]: Directory matches ignore regex.
+2020-03-01 12:58:40,712 INFO     root            Ignoring directory [node_modules/bignumber.js]: Directory matches ignore regex.
+2020-03-01 12:58:40,713 INFO     root            Ignoring directory [node_modules/body-parser]: Directory matches ignore regex.
+2020-03-01 12:58:40,713 INFO     root            Ignoring directory [node_modules/buffer-equal-constant-time]: Directory matches ignore regex.
+2020-03-01 12:58:40,713 INFO     root            Ignoring directory [node_modules/buffer-from]: Directory matches ignore regex.
+2020-03-01 12:58:40,713 INFO     root            Ignoring directory [node_modules/bytes]: Directory matches ignore regex.
+2020-03-01 12:58:40,713 INFO     root            Ignoring directory [node_modules/compressible]: Directory matches ignore regex.
+2020-03-01 12:58:40,713 INFO     root            Ignoring directory [node_modules/concat-stream]: Directory matches ignore regex.
+2020-03-01 12:58:40,713 INFO     root            Ignoring directory [node_modules/configstore]: Directory matches ignore regex.
+2020-03-01 12:58:40,713 INFO     root            Ignoring directory [node_modules/content-disposition]: Directory matches ignore regex.
+2020-03-01 12:58:40,713 INFO     root            Ignoring directory [node_modules/content-type]: Directory matches ignore regex.
+2020-03-01 12:58:40,714 INFO     root            Ignoring directory [node_modules/cookie]: Directory matches ignore regex.
+2020-03-01 12:58:40,714 INFO     root            Ignoring directory [node_modules/cookie-signature]: Directory matches ignore regex.
+2020-03-01 12:58:40,714 INFO     root            Ignoring directory [node_modules/core-util-is]: Directory matches ignore regex.
+2020-03-01 12:58:40,714 INFO     root            Ignoring directory [node_modules/crypto-random-string]: Directory matches ignore regex.
+2020-03-01 12:58:40,714 INFO     root            Ignoring directory [node_modules/date-and-time]: Directory matches ignore regex.
+2020-03-01 12:58:40,714 INFO     root            Ignoring directory [node_modules/debug]: Directory matches ignore regex.
+2020-03-01 12:58:40,714 INFO     root            Ignoring directory [node_modules/depd]: Directory matches ignore regex.
+2020-03-01 12:58:40,714 INFO     root            Ignoring directory [node_modules/destroy]: Directory matches ignore regex.
+2020-03-01 12:58:40,714 INFO     root            Ignoring directory [node_modules/dot-prop]: Directory matches ignore regex.
+2020-03-01 12:58:40,714 INFO     root            Ignoring directory [node_modules/duplexify]: Directory matches ignore regex.
+2020-03-01 12:58:40,715 INFO     root            Ignoring directory [node_modules/ecdsa-sig-formatter]: Directory matches ignore regex.
+2020-03-01 12:58:40,715 INFO     root            Ignoring directory [node_modules/ee-first]: Directory matches ignore regex.
+2020-03-01 12:58:40,715 INFO     root            Ignoring directory [node_modules/encodeurl]: Directory matches ignore regex.
+2020-03-01 12:58:40,715 INFO     root            Ignoring directory [node_modules/end-of-stream]: Directory matches ignore regex.
+2020-03-01 12:58:40,715 INFO     root            Ignoring directory [node_modules/ent]: Directory matches ignore regex.
+2020-03-01 12:58:40,715 INFO     root            Ignoring directory [node_modules/escape-html]: Directory matches ignore regex.
+2020-03-01 12:58:40,715 INFO     root            Ignoring directory [node_modules/etag]: Directory matches ignore regex.
+2020-03-01 12:58:40,715 INFO     root            Ignoring directory [node_modules/event-target-shim]: Directory matches ignore regex.
+2020-03-01 12:58:40,715 INFO     root            Ignoring directory [node_modules/express]: Directory matches ignore regex.
+2020-03-01 12:58:40,715 INFO     root            Ignoring directory [node_modules/extend]: Directory matches ignore regex.
+2020-03-01 12:58:40,715 INFO     root            Ignoring directory [node_modules/fast-text-encoding]: Directory matches ignore regex.
+2020-03-01 12:58:40,716 INFO     root            Ignoring directory [node_modules/finalhandler]: Directory matches ignore regex.
+2020-03-01 12:58:40,716 INFO     root            Ignoring directory [node_modules/forwarded]: Directory matches ignore regex.
+2020-03-01 12:58:40,716 INFO     root            Ignoring directory [node_modules/fresh]: Directory matches ignore regex.
+2020-03-01 12:58:40,716 INFO     root            Ignoring directory [node_modules/gaxios]: Directory matches ignore regex.
+2020-03-01 12:58:40,716 INFO     root            Ignoring directory [node_modules/gcp-metadata]: Directory matches ignore regex.
+2020-03-01 12:58:40,716 INFO     root            Ignoring directory [node_modules/gcs-resumable-upload]: Directory matches ignore regex.
+2020-03-01 12:58:40,716 INFO     root            Ignoring directory [node_modules/git]: Directory matches ignore regex.
+2020-03-01 12:58:40,716 INFO     root            Ignoring directory [node_modules/google-auth-library]: Directory matches ignore regex.
+2020-03-01 12:58:40,716 INFO     root            Ignoring directory [node_modules/google-p12-pem]: Directory matches ignore regex.
+2020-03-01 12:58:40,717 INFO     root            Ignoring directory [node_modules/graceful-fs]: Directory matches ignore regex.
+2020-03-01 12:58:40,717 INFO     root            Ignoring directory [node_modules/gtoken]: Directory matches ignore regex.
+2020-03-01 12:58:40,717 INFO     root            Ignoring directory [node_modules/hash-stream-validation]: Directory matches ignore regex.
+2020-03-01 12:58:40,717 INFO     root            Ignoring directory [node_modules/http-errors]: Directory matches ignore regex.
+2020-03-01 12:58:40,717 INFO     root            Ignoring directory [node_modules/http-proxy-agent]: Directory matches ignore regex.
+2020-03-01 12:58:40,717 INFO     root            Ignoring directory [node_modules/https-proxy-agent]: Directory matches ignore regex.
+2020-03-01 12:58:40,717 INFO     root            Ignoring directory [node_modules/iconv-lite]: Directory matches ignore regex.
+2020-03-01 12:58:40,717 INFO     root            Ignoring directory [node_modules/imurmurhash]: Directory matches ignore regex.
+2020-03-01 12:58:40,718 INFO     root            Ignoring directory [node_modules/inherits]: Directory matches ignore regex.
+2020-03-01 12:58:40,718 INFO     root            Ignoring directory [node_modules/ipaddr.js]: Directory matches ignore regex.
+2020-03-01 12:58:40,718 INFO     root            Ignoring directory [node_modules/is-obj]: Directory matches ignore regex.
+2020-03-01 12:58:40,718 INFO     root            Ignoring directory [node_modules/is-stream]: Directory matches ignore regex.
+2020-03-01 12:58:40,718 INFO     root            Ignoring directory [node_modules/is-typedarray]: Directory matches ignore regex.
+2020-03-01 12:58:40,718 INFO     root            Ignoring directory [node_modules/isarray]: Directory matches ignore regex.
+2020-03-01 12:58:40,718 INFO     root            Ignoring directory [node_modules/json-bigint]: Directory matches ignore regex.
+2020-03-01 12:58:40,718 INFO     root            Ignoring directory [node_modules/jwa]: Directory matches ignore regex.
+2020-03-01 12:58:40,719 INFO     root            Ignoring directory [node_modules/jws]: Directory matches ignore regex.
+2020-03-01 12:58:40,719 INFO     root            Ignoring directory [node_modules/lru-cache]: Directory matches ignore regex.
+2020-03-01 12:58:40,719 INFO     root            Ignoring directory [node_modules/make-dir]: Directory matches ignore regex.
+2020-03-01 12:58:40,719 INFO     root            Ignoring directory [node_modules/media-typer]: Directory matches ignore regex.
+2020-03-01 12:58:40,719 INFO     root            Ignoring directory [node_modules/merge-descriptors]: Directory matches ignore regex.
+2020-03-01 12:58:40,719 INFO     root            Ignoring directory [node_modules/methods]: Directory matches ignore regex.
+2020-03-01 12:58:40,719 INFO     root            Ignoring directory [node_modules/mime]: Directory matches ignore regex.
+2020-03-01 12:58:40,719 INFO     root            Ignoring directory [node_modules/mime-db]: Directory matches ignore regex.
+2020-03-01 12:58:40,719 INFO     root            Ignoring directory [node_modules/mime-types]: Directory matches ignore regex.
+2020-03-01 12:58:40,719 INFO     root            Ignoring directory [node_modules/mimic-fn]: Directory matches ignore regex.
+2020-03-01 12:58:40,720 INFO     root            Ignoring directory [node_modules/ms]: Directory matches ignore regex.
+2020-03-01 12:58:40,720 INFO     root            Ignoring directory [node_modules/negotiator]: Directory matches ignore regex.
+2020-03-01 12:58:40,720 INFO     root            Ignoring directory [node_modules/node-fetch]: Directory matches ignore regex.
+2020-03-01 12:58:40,720 INFO     root            Ignoring directory [node_modules/node-forge]: Directory matches ignore regex.
+2020-03-01 12:58:40,720 INFO     root            Ignoring directory [node_modules/on-finished]: Directory matches ignore regex.
+2020-03-01 12:58:40,720 INFO     root            Ignoring directory [node_modules/once]: Directory matches ignore regex.
+2020-03-01 12:58:40,720 INFO     root            Ignoring directory [node_modules/onetime]: Directory matches ignore regex.
+2020-03-01 12:58:40,720 INFO     root            Ignoring directory [node_modules/p-limit]: Directory matches ignore regex.
+2020-03-01 12:58:40,720 INFO     root            Ignoring directory [node_modules/p-try]: Directory matches ignore regex.
+2020-03-01 12:58:40,720 INFO     root            Ignoring directory [node_modules/parseurl]: Directory matches ignore regex.
+2020-03-01 12:58:40,720 INFO     root            Ignoring directory [node_modules/path-to-regexp]: Directory matches ignore regex.
+2020-03-01 12:58:40,720 INFO     root            Ignoring directory [node_modules/process-nextick-args]: Directory matches ignore regex.
+2020-03-01 12:58:40,721 INFO     root            Ignoring directory [node_modules/proxy-addr]: Directory matches ignore regex.
+2020-03-01 12:58:40,721 INFO     root            Ignoring directory [node_modules/pump]: Directory matches ignore regex.
+2020-03-01 12:58:40,721 INFO     root            Ignoring directory [node_modules/pumpify]: Directory matches ignore regex.
+2020-03-01 12:58:40,721 INFO     root            Ignoring directory [node_modules/qs]: Directory matches ignore regex.
+2020-03-01 12:58:40,721 INFO     root            Ignoring directory [node_modules/range-parser]: Directory matches ignore regex.
+2020-03-01 12:58:40,721 INFO     root            Ignoring directory [node_modules/raw-body]: Directory matches ignore regex.
+2020-03-01 12:58:40,721 INFO     root            Ignoring directory [node_modules/readable-stream]: Directory matches ignore regex.
+2020-03-01 12:58:40,721 INFO     root            Ignoring directory [node_modules/retry-request]: Directory matches ignore regex.
+2020-03-01 12:58:40,722 INFO     root            Ignoring directory [node_modules/safe-buffer]: Directory matches ignore regex.
+2020-03-01 12:58:40,722 INFO     root            Ignoring directory [node_modules/safer-buffer]: Directory matches ignore regex.
+2020-03-01 12:58:40,722 INFO     root            Ignoring directory [node_modules/semver]: Directory matches ignore regex.
+2020-03-01 12:58:40,722 INFO     root            Ignoring directory [node_modules/send]: Directory matches ignore regex.
+2020-03-01 12:58:40,722 INFO     root            Ignoring directory [node_modules/serve-static]: Directory matches ignore regex.
+2020-03-01 12:58:40,722 INFO     root            Ignoring directory [node_modules/setprototypeof]: Directory matches ignore regex.
+2020-03-01 12:58:40,722 INFO     root            Ignoring directory [node_modules/signal-exit]: Directory matches ignore regex.
+2020-03-01 12:58:40,722 INFO     root            Ignoring directory [node_modules/snakeize]: Directory matches ignore regex.
+2020-03-01 12:58:40,722 INFO     root            Ignoring directory [node_modules/statuses]: Directory matches ignore regex.
+2020-03-01 12:58:40,722 INFO     root            Ignoring directory [node_modules/stream-events]: Directory matches ignore regex.
+2020-03-01 12:58:40,723 INFO     root            Ignoring directory [node_modules/stream-shift]: Directory matches ignore regex.
+2020-03-01 12:58:40,723 INFO     root            Ignoring directory [node_modules/string_decoder]: Directory matches ignore regex.
+2020-03-01 12:58:40,723 INFO     root            Ignoring directory [node_modules/stubs]: Directory matches ignore regex.
+2020-03-01 12:58:40,723 INFO     root            Ignoring directory [node_modules/teeny-request]: Directory matches ignore regex.
+2020-03-01 12:58:40,723 INFO     root            Ignoring directory [node_modules/through2]: Directory matches ignore regex.
+2020-03-01 12:58:40,723 INFO     root            Ignoring directory [node_modules/toidentifier]: Directory matches ignore regex.
+2020-03-01 12:58:40,723 INFO     root            Ignoring directory [node_modules/type-is]: Directory matches ignore regex.
+2020-03-01 12:58:40,723 INFO     root            Ignoring directory [node_modules/typedarray]: Directory matches ignore regex.
+2020-03-01 12:58:40,723 INFO     root            Ignoring directory [node_modules/typedarray-to-buffer]: Directory matches ignore regex.
+2020-03-01 12:58:40,723 INFO     root            Ignoring directory [node_modules/unique-string]: Directory matches ignore regex.
+2020-03-01 12:58:40,723 INFO     root            Ignoring directory [node_modules/unpipe]: Directory matches ignore regex.
+2020-03-01 12:58:40,723 INFO     root            Ignoring directory [node_modules/util-deprecate]: Directory matches ignore regex.
+2020-03-01 12:58:40,724 INFO     root            Ignoring directory [node_modules/utils-merge]: Directory matches ignore regex.
+2020-03-01 12:58:40,724 INFO     root            Ignoring directory [node_modules/uuid]: Directory matches ignore regex.
+2020-03-01 12:58:40,724 INFO     root            Ignoring directory [node_modules/vary]: Directory matches ignore regex.
+2020-03-01 12:58:40,724 INFO     root            Ignoring directory [node_modules/wrappy]: Directory matches ignore regex.
+2020-03-01 12:58:40,724 INFO     root            Ignoring directory [node_modules/write-file-atomic]: Directory matches ignore regex.
+2020-03-01 12:58:40,724 INFO     root            Ignoring directory [node_modules/xdg-basedir]: Directory matches ignore regex.
+2020-03-01 12:58:40,724 INFO     root            Ignoring directory [node_modules/xtend]: Directory matches ignore regex.
+2020-03-01 12:58:40,724 INFO     root            Ignoring directory [node_modules/yallist]: Directory matches ignore regex.
+2020-03-01 12:58:40,725 INFO     root            Ignoring directory [.nvm/versions/node/v13.9.0/lib/node_modules/npm]: Directory matches ignore regex.
+2020-03-01 12:58:40,812 INFO     root            Need Dockerfile to be generated for runtime nodejs
+2020-03-01 12:58:40,812 INFO     ___FILE_ONLY___ Building and pushing image for service [default]
+
+2020-03-01 12:58:40,817 DEBUG    root            Could not call git with args ('config', '--get-regexp', 'remote\\.(.*)\\.url'): Command '['git', 'config', '--get-regexp', 'remote\\.(.*)\\.url']' returned non-zero exit status 1
+2020-03-01 12:58:40,817 INFO     root            Could not generate [source-context.json]: Could not list remote URLs from source directory: /home/justink875
+Stackdriver Debugger may not be configured or enabled on this application. See https://cloud.google.com/debugger/ for more information.
+2020-03-01 12:58:55,619 INFO     root            Uploading [/tmp/tmpkfkU7k/src.tgz] to [staging.lucid-burner-231321.appspot.com/us.gcr.io/lucid-burner-231321/appengine/default.20200301t125837:latest]
+2020-03-01 12:58:56,118 DEBUG    root            Using runtime builder root [gs://runtime-builders/]
+2020-03-01 12:58:56,118 DEBUG    root            Loading runtimes manifest from [gs://runtime-builders/runtimes.yaml]
+2020-03-01 12:58:56,127 INFO     root            Reading [<googlecloudsdk.api_lib.storage.storage_util.ObjectReference object at 0x7f6e18363a10>]
+2020-03-01 12:58:56,261 DEBUG    root            Resolved runtime [nodejs] as build configuration [gs://runtime-builders/nodejs-default-builder-20190807121809.yaml]
+2020-03-01 12:58:56,261 INFO     root            Using runtime builder [gs://runtime-builders/nodejs-default-builder-20190807121809.yaml]
+2020-03-01 12:58:56,275 INFO     root            Reading [<googlecloudsdk.api_lib.storage.storage_util.ObjectReference object at 0x7f6e182b1a50>]
+2020-03-01 12:58:57,138 INFO     ___FILE_ONLY___ Started cloud build [ce88301e-8a8a-4442-a2db-d4a3a12aa925].
+
+2020-03-01 12:58:57,142 DEBUG    root            GCS logfile url is https://www.googleapis.com/storage/v1/b/staging.lucid-burner-231321.appspot.com/o/log-ce88301e-8a8a-4442-a2db-d4a3a12aa925.txt?alt=media
+2020-03-01 12:58:57,143 INFO     ___FILE_ONLY___ To see logs in the Cloud Console: https://console.cloud.google.com/gcr/builds/ce88301e-8a8a-4442-a2db-d4a3a12aa925?project=218225514060
+
+2020-03-01 12:58:57,457 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:58:58,610 DEBUG    root            Reading GCS logfile: 404 (no log yet; keep polling)
+2020-03-01 12:58:58,940 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:00,017 DEBUG    root            Reading GCS logfile: 206 (read 225 bytes)
+2020-03-01 12:59:00,018 INFO     ___FILE_ONLY___ --------------------------------------------------------- REMOTE BUILD OUTPUT ----------------------------------------------------------
+
+2020-03-01 12:59:00,018 INFO     ___FILE_ONLY___ starting build "ce88301e-8a8a-4442-a2db-d4a3a12aa925"
+
+FETCHSOURCE
+Fetching storage object: gs://staging.lucid-burner-231321.appspot.com/us.gcr.io/lucid-burner-231321/appengine/default.20200301t125837:latest#1583067536072019
+
+2020-03-01 12:59:00,314 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:01,413 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:01,689 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:02,812 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:03,107 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:04,220 DEBUG    root            Reading GCS logfile: 206 (read 393 bytes)
+2020-03-01 12:59:04,220 INFO     ___FILE_ONLY___ Copying gs://staging.lucid-burner-231321.appspot.com/us.gcr.io/lucid-burner-231321/appengine/default.20200301t125837:latest#1583067536072019...
+/ [0 files][    0.0 B/ 49.1 MiB]                                                -- [1 files][ 49.1 MiB/ 49.1 MiB]                                                \
+Operation completed over 1 objects/49.1 MiB.                                     
+
+2020-03-01 12:59:04,496 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:05,610 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:05,910 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:07,014 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:07,315 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:08,417 DEBUG    root            Reading GCS logfile: 206 (read 161 bytes)
+2020-03-01 12:59:08,418 INFO     ___FILE_ONLY___ BUILD
+Starting Step #0
+Step #0: Pulling image: gcr.io/gcp-runtimes/nodejs/gen-dockerfile@sha256:d5293a583629252c12c478b572103b557ee26235c6b03a57d1f18d52882fb937
+
+2020-03-01 12:59:08,507 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:09,622 DEBUG    root            Reading GCS logfile: 206 (read 889 bytes)
+2020-03-01 12:59:09,622 INFO     ___FILE_ONLY___ Step #0: sha256:d5293a583629252c12c478b572103b557ee26235c6b03a57d1f18d52882fb937: Pulling from gcp-runtimes/nodejs/gen-dockerfile
+Step #0: c4272b5b18a1: Pulling fs layer
+Step #0: 99f31d2d2127: Pulling fs layer
+Step #0: 3c2cba919283: Pulling fs layer
+Step #0: e83dbc3576f7: Pulling fs layer
+Step #0: 9efe1b0c1e82: Pulling fs layer
+Step #0: 83001cb10871: Pulling fs layer
+Step #0: 1162305be692: Pulling fs layer
+Step #0: 9519340f6b21: Pulling fs layer
+Step #0: 85ea7b697da2: Pulling fs layer
+Step #0: 6403c14e19e4: Pulling fs layer
+Step #0: d9919eba9859: Pulling fs layer
+Step #0: 8665cabad70f: Pulling fs layer
+Step #0: e83dbc3576f7: Waiting
+Step #0: 9efe1b0c1e82: Waiting
+Step #0: 83001cb10871: Waiting
+Step #0: 1162305be692: Waiting
+Step #0: 9519340f6b21: Waiting
+Step #0: 85ea7b697da2: Waiting
+Step #0: 6403c14e19e4: Waiting
+Step #0: d9919eba9859: Waiting
+Step #0: 8665cabad70f: Waiting
+
+2020-03-01 12:59:09,917 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:11,018 DEBUG    root            Reading GCS logfile: 206 (read 913 bytes)
+2020-03-01 12:59:11,018 INFO     ___FILE_ONLY___ Step #0: 3c2cba919283: Verifying Checksum
+Step #0: 3c2cba919283: Download complete
+Step #0: 99f31d2d2127: Verifying Checksum
+Step #0: 99f31d2d2127: Download complete
+Step #0: 9efe1b0c1e82: Verifying Checksum
+Step #0: 9efe1b0c1e82: Download complete
+Step #0: c4272b5b18a1: Verifying Checksum
+Step #0: c4272b5b18a1: Download complete
+Step #0: 83001cb10871: Verifying Checksum
+Step #0: 83001cb10871: Download complete
+Step #0: e83dbc3576f7: Verifying Checksum
+Step #0: e83dbc3576f7: Download complete
+Step #0: 85ea7b697da2: Verifying Checksum
+Step #0: 85ea7b697da2: Download complete
+Step #0: 1162305be692: Verifying Checksum
+Step #0: 1162305be692: Download complete
+Step #0: 6403c14e19e4: Verifying Checksum
+Step #0: 6403c14e19e4: Download complete
+Step #0: d9919eba9859: Verifying Checksum
+Step #0: d9919eba9859: Download complete
+Step #0: 9519340f6b21: Verifying Checksum
+Step #0: 9519340f6b21: Download complete
+
+2020-03-01 12:59:11,293 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:12,417 DEBUG    root            Reading GCS logfile: 206 (read 83 bytes)
+2020-03-01 12:59:12,417 INFO     ___FILE_ONLY___ Step #0: 8665cabad70f: Verifying Checksum
+Step #0: 8665cabad70f: Download complete
+
+2020-03-01 12:59:12,691 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:13,811 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:14,128 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:15,218 DEBUG    root            Reading GCS logfile: 206 (read 111 bytes)
+2020-03-01 12:59:15,218 INFO     ___FILE_ONLY___ Step #0: c4272b5b18a1: Pull complete
+Step #0: 99f31d2d2127: Pull complete
+Step #0: 3c2cba919283: Pull complete
+
+2020-03-01 12:59:15,517 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:16,610 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:16,906 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:18,014 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:18,310 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:19,411 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:19,685 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:20,714 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:20,798 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:21,918 DEBUG    root            Reading GCS logfile: 206 (read 111 bytes)
+2020-03-01 12:59:21,918 INFO     ___FILE_ONLY___ Step #0: e83dbc3576f7: Pull complete
+Step #0: 9efe1b0c1e82: Pull complete
+Step #0: 83001cb10871: Pull complete
+
+2020-03-01 12:59:22,041 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:23,122 DEBUG    root            Reading GCS logfile: 206 (read 37 bytes)
+2020-03-01 12:59:23,123 INFO     ___FILE_ONLY___ Step #0: 1162305be692: Pull complete
+
+2020-03-01 12:59:23,419 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:24,512 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:24,788 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:25,920 DEBUG    root            Reading GCS logfile: 206 (read 37 bytes)
+2020-03-01 12:59:25,920 INFO     ___FILE_ONLY___ Step #0: 9519340f6b21: Pull complete
+
+2020-03-01 12:59:26,006 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:27,118 DEBUG    root            Reading GCS logfile: 206 (read 111 bytes)
+2020-03-01 12:59:27,118 INFO     ___FILE_ONLY___ Step #0: 85ea7b697da2: Pull complete
+Step #0: 6403c14e19e4: Pull complete
+Step #0: d9919eba9859: Pull complete
+
+2020-03-01 12:59:27,412 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:28,428 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:28,513 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:29,615 DEBUG    root            Reading GCS logfile: 206 (read 407 bytes)
+2020-03-01 12:59:29,615 INFO     ___FILE_ONLY___ Step #0: 8665cabad70f: Pull complete
+Step #0: Digest: sha256:d5293a583629252c12c478b572103b557ee26235c6b03a57d1f18d52882fb937
+Step #0: Status: Downloaded newer image for gcr.io/gcp-runtimes/nodejs/gen-dockerfile@sha256:d5293a583629252c12c478b572103b557ee26235c6b03a57d1f18d52882fb937
+Step #0: gcr.io/gcp-runtimes/nodejs/gen-dockerfile@sha256:d5293a583629252c12c478b572103b557ee26235c6b03a57d1f18d52882fb937
+
+2020-03-01 12:59:29,911 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:31,012 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:31,314 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:32,410 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:32,715 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:33,810 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:33,892 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:35,016 DEBUG    root            Reading GCS logfile: 206 (read 773 bytes)
+2020-03-01 12:59:35,016 INFO     ___FILE_ONLY___ Step #0: Checking for Node.js.
+Step #0: WARNING:  Your package.json does not specify a supported Node.js version.  Please pin your application to a major version of the Node.js runtime.  To learn more, visit https://cloud.google.com/appengine/docs/flexible/nodejs/runtime
+Finished Step #0
+Starting Step #1
+Step #1: Already have image (with digest): gcr.io/kaniko-project/executor@sha256:f87c11770a4d3ed33436508d206c584812cd656e6ed08eda1cff5c1ee44f5870
+Step #1: [36mINFO[0m[0000] Removing ignored files from build context: [node_modules .dockerignore Dockerfile npm-debug.log yarn-error.log .git .hg .svn app.yaml] 
+Step #1: [36mINFO[0m[0000] Downloading base image gcr.io/google-appengine/nodejs@sha256:ef8be7b4dc77c3e71fbc85ca88186b13214af8f83b8baecc65e8ed85bb904ad5 
+
+2020-03-01 12:59:35,312 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:36,415 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:36,509 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:37,610 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:37,914 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:39,011 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:39,094 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:40,212 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:40,297 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:41,410 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:41,502 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:42,609 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:42,905 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:44,010 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:44,097 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:45,212 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:45,331 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:46,412 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:46,497 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:47,609 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:47,733 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:48,748 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:48,831 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:49,920 DEBUG    root            Reading GCS logfile: 206 (read 75 bytes)
+2020-03-01 12:59:49,920 INFO     ___FILE_ONLY___ Step #1: [36mINFO[0m[0015] Taking snapshot of full filesystem...        
+
+2020-03-01 12:59:50,004 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:51,018 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:51,107 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:52,210 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:52,302 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:53,411 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:53,499 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:54,609 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:54,688 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:55,810 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:55,894 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:57,009 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:57,326 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:58,411 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:58,497 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 12:59:59,611 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 12:59:59,699 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:00,811 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 13:00:00,900 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:02,020 DEBUG    root            Reading GCS logfile: 206 (read 75 bytes)
+2020-03-01 13:00:02,021 INFO     ___FILE_ONLY___ Step #1: [36mINFO[0m[0027] Using files from context: [/workspace]       
+
+2020-03-01 13:00:02,103 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:03,131 DEBUG    root            Reading GCS logfile: 206 (read 150 bytes)
+2020-03-01 13:00:03,131 INFO     ___FILE_ONLY___ Step #1: [36mINFO[0m[0028] COPY . /app/                                 
+Step #1: [36mINFO[0m[0028] Taking snapshot of files...                  
+
+2020-03-01 13:00:03,217 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:04,311 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 13:00:04,608 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:05,712 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 13:00:05,796 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:06,914 DEBUG    root            Reading GCS logfile: 206 (read 362 bytes)
+2020-03-01 13:00:06,915 INFO     ___FILE_ONLY___ Step #1: [36mINFO[0m[0031] RUN npm install --unsafe-perm ||   ((if [ -f npm-debug.log ]; then       cat npm-debug.log;     fi) && false) 
+Step #1: [36mINFO[0m[0031] cmd: /bin/sh                                 
+Step #1: [36mINFO[0m[0031] args: [-c npm install --unsafe-perm ||   ((if [ -f npm-debug.log ]; then       cat npm-debug.log;     fi) && false)] 
+
+2020-03-01 13:00:06,996 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:08,112 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 13:00:08,411 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:09,512 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 13:00:09,788 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:10,912 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 13:00:10,999 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:12,119 DEBUG    root            Reading GCS logfile: 206 (read 391 bytes)
+2020-03-01 13:00:12,119 INFO     ___FILE_ONLY___ Step #1: npm WARN slohacks@1.0.0 No description
+Step #1: npm WARN slohacks@1.0.0 No repository field.
+Step #1: 
+Step #1: added 144 packages from 84 contributors and audited 456 packages in 3.685s
+Step #1: found 1 moderate severity vulnerability
+Step #1:   run `npm audit fix` to fix them, or `npm audit` for details
+Step #1: [36mINFO[0m[0037] Taking snapshot of full filesystem...        
+
+2020-03-01 13:00:12,206 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:13,312 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 13:00:13,393 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:14,510 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 13:00:14,589 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:15,609 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 13:00:15,696 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:16,809 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 13:00:16,890 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:18,013 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 13:00:18,096 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:19,210 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 13:00:19,289 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:20,319 DEBUG    root            Reading GCS logfile: 206 (read 75 bytes)
+2020-03-01 13:00:20,319 INFO     ___FILE_ONLY___ Step #1: [36mINFO[0m[0045] CMD npm start                                
+
+2020-03-01 13:00:20,406 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:21,518 DEBUG    root            Reading GCS logfile: 206 (read 1160 bytes)
+2020-03-01 13:00:21,519 INFO     ___FILE_ONLY___ Step #1: 2020/03/01 13:00:19 existing blob: sha256:3597d82c78f6eeb6cd66bd1ec35f5e8bcdad9f8cd392cd3dc6cbfc0111aff2da
+Step #1: 2020/03/01 13:00:19 existing blob: sha256:912fe0956b48e9e5d140e4947e09be36c1bb2d2186a5ca7b6e57f31e423a4404
+Step #1: 2020/03/01 13:00:19 existing blob: sha256:3c2cba919283a210665e480bcbf943eaaf4ed87a83f02e81bb286b8bdead0e75
+Step #1: 2020/03/01 13:00:19 existing blob: sha256:81bb7127678a82e8e9131e2f47bbae5853ba33b89c6ade91201c0fca8a1c8dd9
+Step #1: 2020/03/01 13:00:19 existing blob: sha256:537932092991e0c9f705cdfad7cdc5bb6fe83fda36af0452de2f5d2fac6eb6b1
+Step #1: 2020/03/01 13:00:19 existing blob: sha256:4ad0e69275819c37c5a3ff6f9c3579f4ae19657c0ea40580a347cfa3fc32d7f6
+Step #1: 2020/03/01 13:00:19 existing blob: sha256:72be9390242a715ac08d82becdbae8c3e13d7b893a384156d63dad87c099478b
+Step #1: 2020/03/01 13:00:19 existing blob: sha256:95016fdb07dce7dc6d6ff2746f985d6787da05314ff8180602b868a53b437c46
+Step #1: 2020/03/01 13:00:19 existing blob: sha256:40a5c2875f881a931f7b7340904bbc939b8bcebe131e058501659ee24597571f
+Step #1: 2020/03/01 13:00:19 existing blob: sha256:81b9a32df3efd40d591bf4f1257c68c2de442c43466c8b5b151561d62fee1da2
+
+2020-03-01 13:00:21,601 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:22,712 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 13:00:22,795 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:23,821 DEBUG    root            Reading GCS logfile: 206 (read 226 bytes)
+2020-03-01 13:00:23,821 INFO     ___FILE_ONLY___ Step #1: 2020/03/01 13:00:21 pushed blob sha256:cfa6b1d6347046cf22694e56b51de12a9179b36ec4aa8c8405447d11e15a8f02
+Step #1: 2020/03/01 13:00:22 pushed blob sha256:9c366ce03bc95cb3f5e1a3977388965fd81c33843afd4f3d4c8e25c8a20fe8da
+
+2020-03-01 13:00:23,906 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:25,012 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 13:00:25,094 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:26,222 DEBUG    root            Reading GCS logfile: 206 (read 113 bytes)
+2020-03-01 13:00:26,222 INFO     ___FILE_ONLY___ Step #1: 2020/03/01 13:00:25 pushed blob sha256:3b225a35efa3931f09058acf72d5b98dff4626045ef6b3d7a8602a667b203da9
+
+2020-03-01 13:00:26,306 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:27,417 DEBUG    root            Reading GCS logfile: 206 (read 192 bytes)
+2020-03-01 13:00:27,417 INFO     ___FILE_ONLY___ Step #1: 2020/03/01 13:00:26 us.gcr.io/lucid-burner-231321/appengine/default.20200301t125837:latest: digest: sha256:ae53087a9c04d8e69261adac526b51a73be91fb10d8f8fd394bfe573c832ca41 size: 2222
+
+2020-03-01 13:00:27,691 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] not complete. Waiting 1s.
+2020-03-01 13:00:28,814 DEBUG    root            Reading GCS logfile: 206 (read 27 bytes)
+2020-03-01 13:00:28,814 INFO     ___FILE_ONLY___ Finished Step #1
+PUSH
+DONE
+
+2020-03-01 13:00:28,918 DEBUG    root            Operation [operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1] complete. Result: {
+    "response": {
+        "finishTime": "2020-03-01T13:00:28.532090Z", 
+        "status": "SUCCESS", 
+        "timeout": "600s", 
+        "startTime": "2020-03-01T12:58:57.650779267Z", 
+        "logsBucket": "staging.lucid-burner-231321.appspot.com", 
+        "results": {
+            "buildStepOutputs": [
+                "", 
+                ""
+            ], 
+            "buildStepImages": [
+                "", 
+                "sha256:f87c11770a4d3ed33436508d206c584812cd656e6ed08eda1cff5c1ee44f5870"
+            ]
+        }, 
+        "createTime": "2020-03-01T12:58:56.584657819Z", 
+        "@type": "type.googleapis.com/google.devtools.cloudbuild.v1.Build", 
+        "source": {
+            "storageSource": {
+                "object": "us.gcr.io/lucid-burner-231321/appengine/default.20200301t125837:latest", 
+                "bucket": "staging.lucid-burner-231321.appspot.com"
+            }
+        }, 
+        "options": {
+            "substitutionOption": "ALLOW_LOOSE", 
+            "logging": "LEGACY"
+        }, 
+        "steps": [
+            {
+                "status": "SUCCESS", 
+                "name": "gcr.io/gcp-runtimes/nodejs/gen-dockerfile@sha256:d5293a583629252c12c478b572103b557ee26235c6b03a57d1f18d52882fb937", 
+                "args": [
+                    "--runtime-image", 
+                    "gcr.io/google-appengine/nodejs@sha256:ef8be7b4dc77c3e71fbc85ca88186b13214af8f83b8baecc65e8ed85bb904ad5"
+                ], 
+                "env": [
+                    "GAE_APPLICATION_YAML_PATH=app.yaml"
+                ], 
+                "timing": {
+                    "endTime": "2020-03-01T12:59:32.913442782Z", 
+                    "startTime": "2020-03-01T12:59:07.419554766Z"
+                }, 
+                "pullTiming": {
+                    "endTime": "2020-03-01T12:59:32.048098535Z", 
+                    "startTime": "2020-03-01T12:59:07.419554766Z"
+                }
+            }, 
+            {
+                "status": "SUCCESS", 
+                "name": "gcr.io/kaniko-project/executor@sha256:f87c11770a4d3ed33436508d206c584812cd656e6ed08eda1cff5c1ee44f5870", 
+                "args": [
+                    "--destination=us.gcr.io/lucid-burner-231321/appengine/default.20200301t125837:latest"
+                ], 
+                "env": [
+                    "GAE_APPLICATION_YAML_PATH=app.yaml"
+                ], 
+                "timing": {
+                    "endTime": "2020-03-01T13:00:27.715548877Z", 
+                    "startTime": "2020-03-01T12:59:32.913526033Z"
+                }, 
+                "pullTiming": {
+                    "endTime": "2020-03-01T12:59:32.926011447Z", 
+                    "startTime": "2020-03-01T12:59:32.913526033Z"
+                }
+            }
+        ], 
+        "sourceProvenance": {
+            "resolvedStorageSource": {
+                "generation": "1583067536072019", 
+                "object": "us.gcr.io/lucid-burner-231321/appengine/default.20200301t125837:latest", 
+                "bucket": "staging.lucid-burner-231321.appspot.com"
+            }, 
+            "fileHashes": {
+                "gs://staging.lucid-burner-231321.appspot.com/us.gcr.io/lucid-burner-231321/appengine/default.20200301t125837:latest#1583067536072019": {}
+            }
+        }, 
+        "projectId": "lucid-burner-231321", 
+        "timing": {
+            "FETCHSOURCE": {
+                "endTime": "2020-03-01T12:59:06.579101135Z", 
+                "startTime": "2020-03-01T12:58:58.533690374Z"
+            }, 
+            "BUILD": {
+                "endTime": "2020-03-01T13:00:27.715598666Z", 
+                "startTime": "2020-03-01T12:59:06.579165098Z"
+            }
+        }, 
+        "substitutions": {
+            "_GAE_APPLICATION_YAML_PATH": "app.yaml", 
+            "_OUTPUT_IMAGE": "us.gcr.io/lucid-burner-231321/appengine/default.20200301t125837:latest"
+        }, 
+        "id": "ce88301e-8a8a-4442-a2db-d4a3a12aa925", 
+        "logUrl": "https://console.cloud.google.com/gcr/builds/ce88301e-8a8a-4442-a2db-d4a3a12aa925?project=218225514060"
+    }, 
+    "done": true, 
+    "name": "operations/build/lucid-burner-231321/Y2U4ODMwMWUtOGE4YS00NDQyLWEyZGItZDRhM2ExMmFhOTI1", 
+    "metadata": {
+        "@type": "type.googleapis.com/google.devtools.cloudbuild.v1.BuildOperationMetadata", 
+        "build": {
+            "finishTime": "2020-03-01T13:00:28.532090Z", 
+            "status": "SUCCESS", 
+            "timeout": "600s", 
+            "startTime": "2020-03-01T12:58:57.650779267Z", 
+            "logsBucket": "staging.lucid-burner-231321.appspot.com", 
+            "results": {
+                "buildStepOutputs": [
+                    "", 
+                    ""
+                ], 
+                "buildStepImages": [
+                    "", 
+                    "sha256:f87c11770a4d3ed33436508d206c584812cd656e6ed08eda1cff5c1ee44f5870"
+                ]
+            }, 
+            "createTime": "2020-03-01T12:58:56.584657819Z", 
+            "timing": {
+                "FETCHSOURCE": {
+                    "endTime": "2020-03-01T12:59:06.579101135Z", 
+                    "startTime": "2020-03-01T12:58:58.533690374Z"
+                }, 
+                "BUILD": {
+                    "endTime": "2020-03-01T13:00:27.715598666Z", 
+                    "startTime": "2020-03-01T12:59:06.579165098Z"
+                }
+            }, 
+            "source": {
+                "storageSource": {
+                    "object": "us.gcr.io/lucid-burner-231321/appengine/default.20200301t125837:latest", 
+                    "bucket": "staging.lucid-burner-231321.appspot.com"
+                }
+            }, 
+            "steps": [
+                {
+                    "status": "SUCCESS", 
+                    "name": "gcr.io/gcp-runtimes/nodejs/gen-dockerfile@sha256:d5293a583629252c12c478b572103b557ee26235c6b03a57d1f18d52882fb937", 
+                    "args": [
+                        "--runtime-image", 
+                        "gcr.io/google-appengine/nodejs@sha256:ef8be7b4dc77c3e71fbc85ca88186b13214af8f83b8baecc65e8ed85bb904ad5"
+                    ], 
+                    "env": [
+                        "GAE_APPLICATION_YAML_PATH=app.yaml"
+                    ], 
+                    "timing": {
+                        "endTime": "2020-03-01T12:59:32.913442782Z", 
+                        "startTime": "2020-03-01T12:59:07.419554766Z"
+                    }, 
+                    "pullTiming": {
+                        "endTime": "2020-03-01T12:59:32.048098535Z", 
+                        "startTime": "2020-03-01T12:59:07.419554766Z"
+                    }
+                }, 
+                {
+                    "status": "SUCCESS", 
+                    "name": "gcr.io/kaniko-project/executor@sha256:f87c11770a4d3ed33436508d206c584812cd656e6ed08eda1cff5c1ee44f5870", 
+                    "args": [
+                        "--destination=us.gcr.io/lucid-burner-231321/appengine/default.20200301t125837:latest"
+                    ], 
+                    "env": [
+                        "GAE_APPLICATION_YAML_PATH=app.yaml"
+                    ], 
+                    "timing": {
+                        "endTime": "2020-03-01T13:00:27.715548877Z", 
+                        "startTime": "2020-03-01T12:59:32.913526033Z"
+                    }, 
+                    "pullTiming": {
+                        "endTime": "2020-03-01T12:59:32.926011447Z", 
+                        "startTime": "2020-03-01T12:59:32.913526033Z"
+                    }
+                }
+            ], 
+            "sourceProvenance": {
+                "resolvedStorageSource": {
+                    "generation": "1583067536072019", 
+                    "object": "us.gcr.io/lucid-burner-231321/appengine/default.20200301t125837:latest", 
+                    "bucket": "staging.lucid-burner-231321.appspot.com"
+                }, 
+                "fileHashes": {
+                    "gs://staging.lucid-burner-231321.appspot.com/us.gcr.io/lucid-burner-231321/appengine/default.20200301t125837:latest#1583067536072019": {}
+                }
+            }, 
+            "projectId": "lucid-burner-231321", 
+            "id": "ce88301e-8a8a-4442-a2db-d4a3a12aa925", 
+            "substitutions": {
+                "_GAE_APPLICATION_YAML_PATH": "app.yaml", 
+                "_OUTPUT_IMAGE": "us.gcr.io/lucid-burner-231321/appengine/default.20200301t125837:latest"
+            }, 
+            "options": {
+                "substitutionOption": "ALLOW_LOOSE", 
+                "logging": "LEGACY"
+            }, 
+            "logUrl": "https://console.cloud.google.com/gcr/builds/ce88301e-8a8a-4442-a2db-d4a3a12aa925?project=218225514060"
+        }
+    }
+}
+2020-03-01 13:00:29,010 DEBUG    root            Reading GCS logfile: 416 (no new content; keep polling)
+2020-03-01 13:00:29,010 INFO     ___FILE_ONLY___ ----------------------------------------------------------------------------------------------------------------------------------------
+
+
+2020-03-01 13:00:29,012 DEBUG    root            Converted YAML to JSON: "{
+  "betaSettings": {
+    "module_yaml_path": "app.yaml", 
+    "vm_runtime": "nodejs"
+  }, 
+  "entrypoint": {
+    "shell": ""
+  }, 
+  "env": "flex", 
+  "handlers": [
+    {
+      "script": {
+        "scriptPath": "PLACEHOLDER"
+      }, 
+      "urlRegex": ".*"
+    }
+  ], 
+  "runtime": "vm"
+}"
+2020-03-01 13:00:29,527 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:00:29,528 INFO     ___FILE_ONLY___ Updating service [default] (this may take several minutes)...
+2020-03-01 13:00:30,617 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:00:36,670 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:00:42,358 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:00:48,358 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:00:54,015 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:00:59,556 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:01:04,908 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:01:10,174 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:01:16,042 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:01:21,626 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:01:26,788 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:01:32,871 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:01:38,119 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:01:43,925 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:01:49,800 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:01:55,095 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:02:00,638 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:02:06,117 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:02:11,265 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:02:16,765 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:02:22,132 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:02:27,234 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:02:33,155 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] not complete. Waiting to retry.
+2020-03-01 13:02:38,622 DEBUG    root            Operation [apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840] complete. Result: {
+    "metadata": {
+        "user": "justink875@gmail.com", 
+        "target": "apps/lucid-burner-231321/services/default/versions/20200301t125837", 
+        "@type": "type.googleapis.com/google.appengine.v1.OperationMetadataV1", 
+        "insertTime": "2020-03-01T13:00:29.433Z", 
+        "method": "google.appengine.v1.Versions.CreateVersion"
+    }, 
+    "done": true, 
+    "name": "apps/lucid-burner-231321/operations/78f62f04-f308-4cd5-9521-40f63842f840", 
+    "error": {
+        "message": "\nApplication startup error:\n\n> slohacks@1.0.0 start /app\n> node server.js\n\n/app/server.js:10\n\t  res.sendFile(path.join(__dirname, 'views/SloHacksProject/index.html');\n\t                                                                      ^\n\nSyntaxError: missing ) after argument list\n    at Module._compile (internal/modules/cjs/loader.js:723:23)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)\n    at startup (internal/bootstrap/node.js:283:19)\n    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)\nnpm ERR! code ELIFECYCLE\nnpm ERR! errno 1\nnpm ERR! slohacks@1.0.0 start: `node server.js`\nnpm ERR! Exit status 1\nnpm ERR! \nnpm ERR! Failed at the slohacks@1.0.0 start script.\nnpm ERR! This is probably not a problem with npm. There is likely additional logging output above.\n\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     /root/.npm/_logs/2020-03-01T13_02_29_990Z-debug.log\n", 
+        "code": 9
+    }
+}
+2020-03-01 13:02:38,813 DEBUG    root            (gcloud.app.deploy) Error Response: [9] 
+Application startup error:
+
+> slohacks@1.0.0 start /app
+> node server.js
+
+/app/server.js:10
+	  res.sendFile(path.join(__dirname, 'views/SloHacksProject/index.html');
+	                                                                      ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! slohacks@1.0.0 start: `node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the slohacks@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2020-03-01T13_02_29_990Z-debug.log
+Traceback (most recent call last):
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 981, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+  File "/usr/lib/google-cloud-sdk/lib/surface/app/deploy.py", line 110, in Run
+    default_strategy=flex_image_build_option_default))
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/app/deploy_util.py", line 643, in RunDeploy
+    ignore_file=args.ignore_file)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/app/deploy_util.py", line 433, in Deploy
+    extra_config_settings)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/app/appengine_api_client.py", line 208, in DeployService
+    poller=done_poller)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/app/operations_util.py", line 314, in WaitForOperation
+    sleep_ms=retry_interval)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/waiter.py", line 264, in WaitFor
+    sleep_ms, _StatusUpdate)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/waiter.py", line 326, in PollUntilDone
+    sleep_ms=sleep_ms)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/core/util/retry.py", line 229, in RetryOnResult
+    if not should_retry(result, state):
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/waiter.py", line 320, in _IsNotDone
+    return not poller.IsDone(operation)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/app/operations_util.py", line 183, in IsDone
+    encoding.MessageToPyValue(operation.error)))
+OperationError: Error Response: [9] 
+Application startup error:
+
+> slohacks@1.0.0 start /app
+> node server.js
+
+/app/server.js:10
+	  res.sendFile(path.join(__dirname, 'views/SloHacksProject/index.html');
+	                                                                      ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! slohacks@1.0.0 start: `node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the slohacks@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2020-03-01T13_02_29_990Z-debug.log
+
+2020-03-01 13:02:38,814 ERROR    root            (gcloud.app.deploy) Error Response: [9] 
+Application startup error:
+
+> slohacks@1.0.0 start /app
+> node server.js
+
+/app/server.js:10
+	  res.sendFile(path.join(__dirname, 'views/SloHacksProject/index.html');
+	                                                                      ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! slohacks@1.0.0 start: `node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the slohacks@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2020-03-01T13_02_29_990Z-debug.log
+

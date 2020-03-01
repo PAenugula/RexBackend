@@ -1,0 +1,30 @@
+2020-03-01 07:44:32,870 DEBUG    root            Loaded Command Group: [u'gcloud', u'projects']
+2020-03-01 07:44:32,873 DEBUG    root            Loaded Command Group: [u'gcloud', u'projects', u'describe']
+2020-03-01 07:44:32,876 DEBUG    root            Running [gcloud.projects.describe] with arguments: [PROJECT_ID: "[YOUR_PROJECT_ID]"]
+2020-03-01 07:44:33,172 DEBUG    root            (gcloud.projects.describe) INVALID_ARGUMENT: Request contains an invalid argument.
+Traceback (most recent call last):
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 981, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+  File "/usr/lib/google-cloud-sdk/lib/surface/projects/describe.py", line 51, in Run
+    return projects_api.Get(project_ref)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/cloudresourcemanager/projects_api.py", line 74, in Get
+    projectId=project_ref.projectId))
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/third_party/apis/cloudresourcemanager/v1/cloudresourcemanager_v1_client.py", line 860, in Get
+    config, request, global_params=global_params)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 731, in _RunMethod
+    return self.ProcessHttpResponse(method_config, http_response, request)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 737, in ProcessHttpResponse
+    self.__ProcessHttpResponse(method_config, http_response, request))
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 604, in __ProcessHttpResponse
+    http_response, method_config=method_config, request=request)
+HttpBadRequestError: HttpError accessing <https://cloudresourcemanager.googleapis.com/v1/projects/%5BYOUR_PROJECT_ID%5D?alt=json>: response: <{'status': '400', 'content-length': '127', 'x-xss-protection': '0', 'x-content-type-options': 'nosniff', 'transfer-encoding': 'chunked', 'vary': 'Origin, X-Origin, Referer', 'server': 'ESF', 'server-timing': 'gfet4t7; dur=197', '-content-encoding': 'gzip', 'cache-control': 'private', 'date': 'Sun, 01 Mar 2020 07:44:33 GMT', 'x-frame-options': 'SAMEORIGIN', 'content-type': 'application/json; charset=UTF-8'}>, content <{
+  "error": {
+    "code": 400,
+    "message": "Request contains an invalid argument.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+>
+2020-03-01 07:44:33,174 ERROR    root            (gcloud.projects.describe) INVALID_ARGUMENT: Request contains an invalid argument.

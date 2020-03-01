@@ -1,0 +1,17 @@
+2020-03-01 07:36:08,032 DEBUG    root            Loaded Command Group: [u'gcloud', u'auth']
+2020-03-01 07:36:08,035 DEBUG    root            Loaded Command Group: [u'gcloud', u'auth', u'login']
+2020-03-01 07:36:08,038 DEBUG    root            Running [gcloud.auth.login] with arguments: []
+2020-03-01 07:36:12,636 INFO     ___FILE_ONLY___ Go to the following link in your browser:
+
+    https://accounts.google.com/o/oauth2/auth?code_challenge=-zXr4DXdUnywLF4FXmPUV1ULRDDLmI3IEf_6-DX44tg&prompt=select_account&code_challenge_method=S256&access_type=offline&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&response_type=code&client_id=32555940559.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth
+
+
+
+2020-03-01 07:36:27,191 INFO     oauth2client.client Successfully retrieved access token
+2020-03-01 07:36:27,225 INFO     ___FILE_ONLY___ 
+You are now logged in as [justink875@gmail.com].
+Your current project is [lucid-burner-231321].  You can change this setting by running:
+  $ gcloud config set project PROJECT_ID
+
+2020-03-01 07:36:27,226 INFO     root            Display format: "none"
+2020-03-01 07:36:27,227 DEBUG    root            SDK update checks are disabled.

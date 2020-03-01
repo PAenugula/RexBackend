@@ -1,0 +1,6 @@
+2020-03-01 02:57:55,033 DEBUG    root            Loaded Command Group: [u'gcloud', u'app']
+2020-03-01 02:57:55,084 DEBUG    root            Loaded Command Group: [u'gcloud', u'app', u'deploy']
+2020-03-01 02:57:55,088 DEBUG    root            Running [gcloud.app.deploy] with arguments: []
+2020-03-01 02:57:55,119 DEBUG    root            Loading runtimes experiment config from [gs://runtime-builders/experiments.yaml]
+2020-03-01 02:57:55,185 INFO     root            Reading [<googlecloudsdk.api_lib.storage.storage_util.ObjectReference object at 0x7fdd1a068490>]
+2020-03-01 02:57:55,325 DEBUG    root            API endpoint: [https://appengine.googleapis.com/], API version: [v1]

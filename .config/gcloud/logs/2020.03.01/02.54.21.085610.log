@@ -1,0 +1,8 @@
+2020-03-01 02:54:21,087 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2020-03-01 02:54:21,090 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'set']
+2020-03-01 02:54:21,093 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "project", VALUE: "lucid-burner-231321"]
+2020-03-01 02:54:21,094 INFO     ___FILE_ONLY___ Updated property [core/project].
+
+2020-03-01 02:54:21,270 WARNING  root            You do not appear to have access to project [lucid-burner-231321] or it does not exist.
+2020-03-01 02:54:21,272 INFO     root            Display format: "default"
+2020-03-01 02:54:21,273 DEBUG    root            SDK update checks are disabled.

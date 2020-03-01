@@ -1,0 +1,23 @@
+2020-03-01 13:36:22,352 DEBUG    root            Loaded Command Group: [u'gcloud', u'app']
+2020-03-01 13:36:22,400 DEBUG    root            Loaded Command Group: [u'gcloud', u'app', u'deploy']
+2020-03-01 13:36:22,404 DEBUG    root            Running [gcloud.app.deploy] with arguments: []
+2020-03-01 13:36:22,431 DEBUG    root            Loading runtimes experiment config from [gs://runtime-builders/experiments.yaml]
+2020-03-01 13:36:22,453 INFO     root            Reading [<googlecloudsdk.api_lib.storage.storage_util.ObjectReference object at 0x7f1e00461850>]
+2020-03-01 13:36:22,653 DEBUG    root            API endpoint: [https://appengine.googleapis.com/], API version: [v1]
+2020-03-01 13:36:23,190 INFO     ___FILE_ONLY___ Services to deploy:
+
+
+2020-03-01 13:36:23,191 INFO     ___FILE_ONLY___ descriptor:      [/home/justink875/app.yaml]
+source:          [/home/justink875]
+target project:  [lucid-burner-231321]
+target service:  [default]
+target version:  [20200301t133623]
+target url:      [https://lucid-burner-231321.appspot.com]
+
+
+
+2020-03-01 13:36:24,418 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+
