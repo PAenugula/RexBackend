@@ -11,18 +11,18 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:q
+|2,0,1583083236,,"q"
+:x
+|2,0,1583082145,,"x"
 :q!
 |2,0,1583072718,,"q!"
-:q
-|2,0,1583072716,,"q"
 :wq
 |2,0,1583071887,,"wq"
 :u
 |2,0,1583069284,,"u"
 :w
 |2,0,1583067389,,"w"
-:x
-|2,0,1583026999,,"x"
 :0
 |2,0,1583025786,,"0"
 :300
@@ -63,36 +63,144 @@
 |3,1,36,0,1,0,1583069269,"{"
 
 # File marks:
-'0  14  18  ~/server.js
-|4,48,14,18,1583072718,"~/server.js"
-'1  22  50  ~/views/SloHacksProject/index.html
-|4,49,22,50,1583071887,"~/views/SloHacksProject/index.html"
-'2  1  0  ~/views/SloHacksProject/index.
-|4,50,1,0,1583071862,"~/views/SloHacksProject/index."
-'3  9  0  ~/server.js
-|4,51,9,0,1583071856,"~/server.js"
-'4  9  0  ~/server.js
-|4,52,9,0,1583071856,"~/server.js"
-'5  22  45  ~/views/SloHacksProject/index.html
-|4,53,22,45,1583071600,"~/views/SloHacksProject/index.html"
-'6  55  17  ~/views/SloHacksProject/index.html
-|4,54,55,17,1583069858,"~/views/SloHacksProject/index.html"
-'7  55  17  ~/views/SloHacksProject/index.html
-|4,55,55,17,1583069858,"~/views/SloHacksProject/index.html"
-'8  55  17  ~/views/SloHacksProject/index.html
-|4,56,55,17,1583069858,"~/views/SloHacksProject/index.html"
-'9  55  17  ~/views/SloHacksProject/index.html
-|4,57,55,17,1583069858,"~/views/SloHacksProject/index.html"
+'0  4  0  ~/app.yaml
+|4,48,4,0,1583083236,"~/app.yaml"
+'1  14  18  ~/server.js
+|4,49,14,18,1583082145,"~/server.js"
+'2  14  18  ~/server.js
+|4,50,14,18,1583082101,"~/server.js"
+'3  4  0  ~/app.yaml
+|4,51,4,0,1583081966,"~/app.yaml"
+'4  14  18  ~/server.js
+|4,52,14,18,1583072718,"~/server.js"
+'5  14  18  ~/server.js
+|4,53,14,18,1583072718,"~/server.js"
+'6  22  50  ~/views/SloHacksProject/index.html
+|4,54,22,50,1583071887,"~/views/SloHacksProject/index.html"
+'7  1  0  ~/views/SloHacksProject/index.
+|4,55,1,0,1583071862,"~/views/SloHacksProject/index."
+'8  9  0  ~/server.js
+|4,56,9,0,1583071856,"~/server.js"
+'9  9  0  ~/server.js
+|4,57,9,0,1583071856,"~/server.js"
 
 # Jumplist (newest first):
+-'  4  0  ~/app.yaml
+|4,39,4,0,1583083236,"~/app.yaml"
+-'  14  18  ~/server.js
+|4,39,14,18,1583082145,"~/server.js"
+-'  14  18  ~/server.js
+|4,39,14,18,1583082145,"~/server.js"
+-'  14  18  ~/server.js
+|4,39,14,18,1583082101,"~/server.js"
+-'  14  18  ~/server.js
+|4,39,14,18,1583082101,"~/server.js"
+-'  4  0  ~/app.yaml
+|4,39,4,0,1583081966,"~/app.yaml"
+-'  4  0  ~/app.yaml
+|4,39,4,0,1583081966,"~/app.yaml"
+-'  4  0  ~/app.yaml
+|4,39,4,0,1583081966,"~/app.yaml"
+-'  4  0  ~/app.yaml
+|4,39,4,0,1583081966,"~/app.yaml"
+-'  2  8  ~/app.yaml
+|4,39,2,8,1583081787,"~/app.yaml"
+-'  2  8  ~/app.yaml
+|4,39,2,8,1583081787,"~/app.yaml"
+-'  2  8  ~/app.yaml
+|4,39,2,8,1583081787,"~/app.yaml"
+-'  2  8  ~/app.yaml
+|4,39,2,8,1583081787,"~/app.yaml"
+-'  2  8  ~/app.yaml
+|4,39,2,8,1583081787,"~/app.yaml"
 -'  14  18  ~/server.js
 |4,39,14,18,1583072718,"~/server.js"
+-'  14  18  ~/server.js
+|4,39,14,18,1583072718,"~/server.js"
+-'  14  18  ~/server.js
+|4,39,14,18,1583072718,"~/server.js"
+-'  14  18  ~/server.js
+|4,39,14,18,1583072718,"~/server.js"
+-'  9  0  ~/server.js
+|4,39,9,0,1583072417,"~/server.js"
+-'  9  0  ~/server.js
+|4,39,9,0,1583072417,"~/server.js"
+-'  9  0  ~/server.js
+|4,39,9,0,1583072417,"~/server.js"
+-'  9  0  ~/server.js
+|4,39,9,0,1583072417,"~/server.js"
+-'  9  0  ~/server.js
+|4,39,9,0,1583072417,"~/server.js"
+-'  9  0  ~/server.js
+|4,39,9,0,1583072417,"~/server.js"
+-'  9  0  ~/server.js
+|4,39,9,0,1583072417,"~/server.js"
 -'  9  0  ~/server.js
 |4,39,9,0,1583072417,"~/server.js"
 -'  22  50  ~/views/SloHacksProject/index.html
 |4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
 -'  22  50  ~/views/SloHacksProject/index.html
 |4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
+-'  22  50  ~/views/SloHacksProject/index.html
+|4,39,22,50,1583071887,"~/views/SloHacksProject/index.html"
 -'  1  0  ~/views/SloHacksProject/index.
 |4,39,1,0,1583071862,"~/views/SloHacksProject/index."
 -'  1  0  ~/views/SloHacksProject/index.
@@ -101,195 +209,95 @@
 |4,39,1,0,1583071862,"~/views/SloHacksProject/index."
 -'  1  0  ~/views/SloHacksProject/index.
 |4,39,1,0,1583071862,"~/views/SloHacksProject/index."
--'  9  0  ~/server.js
-|4,39,9,0,1583071856,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583071856,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583071856,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583071856,"~/server.js"
--'  22  45  ~/views/SloHacksProject/index.html
-|4,39,22,45,1583071600,"~/views/SloHacksProject/index.html"
--'  22  45  ~/views/SloHacksProject/index.html
-|4,39,22,45,1583071600,"~/views/SloHacksProject/index.html"
--'  22  45  ~/views/SloHacksProject/index.html
-|4,39,22,45,1583071600,"~/views/SloHacksProject/index.html"
--'  22  45  ~/views/SloHacksProject/index.html
-|4,39,22,45,1583071600,"~/views/SloHacksProject/index.html"
--'  22  45  ~/views/SloHacksProject/index.html
-|4,39,22,45,1583071600,"~/views/SloHacksProject/index.html"
--'  22  45  ~/views/SloHacksProject/index.html
-|4,39,22,45,1583071600,"~/views/SloHacksProject/index.html"
--'  22  45  ~/views/SloHacksProject/index.html
-|4,39,22,45,1583071600,"~/views/SloHacksProject/index.html"
--'  22  45  ~/views/SloHacksProject/index.html
-|4,39,22,45,1583071600,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583071575,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583071575,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583071575,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583071575,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583071575,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583071575,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583071575,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583071575,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583071575,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583071575,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583069858,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583069858,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583069858,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583069858,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583069858,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583069858,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583069858,"~/views/SloHacksProject/index.html"
--'  55  17  ~/views/SloHacksProject/index.html
-|4,39,55,17,1583069858,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069827,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069657,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069657,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069657,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069657,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069657,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069657,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069657,"~/views/SloHacksProject/index.html"
--'  20  10  ~/views/SloHacksProject/index.html
-|4,39,20,10,1583069657,"~/views/SloHacksProject/index.html"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  9  0  ~/server.js
-|4,39,9,0,1583069293,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
--'  7  0  ~/server.js
-|4,39,7,0,1583069284,"~/server.js"
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
+-'  1  0  ~/views/SloHacksProject/index.
+|4,39,1,0,1583071862,"~/views/SloHacksProject/index."
 
 # History of marks within files (newest to oldest):
 
+> ~/app.yaml
+	*	1583083235	0
+	"	4	0
+	^	4	0
+	.	3	0
+	+	2	9
+	+	3	0
+
 > ~/server.js
-	*	1583072716	0
+	*	1583082122	0
 	"	14	18
 	^	14	19
 	.	14	19
@@ -350,13 +358,6 @@
 	"	16	0
 	.	11	0
 	+	11	0
-
-> ~/app.yaml
-	*	1583026836	0
-	"	2	8
-	^	2	9
-	.	2	8
-	+	2	8
 
 > ~/index.js
 	*	1583026781	0

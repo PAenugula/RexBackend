@@ -116,3 +116,26 @@ gcloud app deploy
 gcloud app browse
 ls
 vim server.js 
+gcloud app browse
+ls
+cat app.yaml 
+cat server.js 
+gcloud app browse
+ls
+mkdir views
+cd views/
+git clone https://github.com/IrennaLumbuun/SloHacksProject.git
+ls
+npm install git
+sudo apt-get install git
+git clone https://github.com/IrennaLumbuun/SloHacksProject.git
+ls
+cd SloHacksProject/
+ls
+cd ..
+cd ../
+ls
+vim server.js 
+tmux
+sudo apt-get install tmux
+tmux
